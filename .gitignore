@@ -1,0 +1,40 @@
+# Server and application logs
+error_log
+*/error_log
+*/*/error_log
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# cPanel / SSL verification files
+.well-known/
+
+# Debug files
+debug_*.html
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Uploads - keep folder structure via .gitkeep but ignore dynamic uploads
+uploads/*
+!uploads/.gitkeep
+admin/uploads/*
+!admin/uploads/.gitkeep
+Admin_123/uploads/*
+!Admin_123/uploads/.gitkeep
+
+# Environment variables
+.env
+.env.local
+.env.*.local
