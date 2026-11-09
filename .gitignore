@@ -38,3 +38,4 @@ Admin_123/uploads/*
 .env
 .env.local
 .env.*.local
+
